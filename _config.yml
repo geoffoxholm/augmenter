@@ -2,3 +2,4 @@ include:
   - README.md
 theme: jekyll-theme-hacker
 description: Batch image manipulation exercise
+show_downloads: true

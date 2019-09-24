@@ -15,7 +15,6 @@ For example, let's say you are training an image-to-image GAN which takes images
 Your solution should:
 - be written in Python
 - use a common image processing library like OpenCV (Python), Pillow, scikit-image
-- use object-oriented techniques
 - use appropriate and efficient data structures
 - be designed as a stand-alone command-line application
 - support running on 1 or more sets of images (where all sets have the same filenames but are contained in different directories)
@@ -27,7 +26,7 @@ Your solution should:
 For example, your application could be run like this:
 
 ```sh
-   python3 augment.py data/sketches data/oil_paintings data/watercolor_paintings --output augmentations_output --count 10 
+python3 augment.py data/sketches data/oil_paintings data/watercolor_paintings --output augmentations_output --count 10 
 ```
 
 Which would create 10 different augmentations of each of the three directories of images. In each of these 10 augmentations some (random) amount of rotation and scaling (for example) will be applied. 
