@@ -27,7 +27,7 @@ Feel free to extend the functionality of your program in any way that you want.
 We realize that there's a lot of ambiguity in this assignment. 
 Feel free to document what improvements you'd _like_ to make, but didn't budget time for.
 Whatever code you do send, please make the effort to impress us with its quality. 
-We'd rather see a small, but well-crafted example than an application with many features that was sloppily put together.
+**We'd rather see a small, but well-crafted example than an application with many features that was sloppily put together.**
 
 
 ## Data
