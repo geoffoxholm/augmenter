@@ -69,7 +69,8 @@ data
     ├── 0008.png
     └── 0009.png
 ```
-This is a made-up dataset of a synthetic 3D scenes.
+This is a made-up dataset of a synthetic 3D scenes. 
+Your script need-not care about the data types.
 
 ## Example
 
