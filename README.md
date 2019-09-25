@@ -89,10 +89,6 @@ augmentations_output
 │   ├── 0000.png
 │   ├── ...
 │   └── 0009.png
-├── depth-01
-│   ├── 0000.png
-│   ├── ...
-│   └── 0009.png
 ├── ...
 ├── depth-09
 │   ├── 0000.png
