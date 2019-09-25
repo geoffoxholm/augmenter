@@ -1,5 +1,5 @@
 include:
   - README.md
-theme: jekyll-theme-hacker
+theme: jekyll-theme-slate
 description: Batch image manipulation exercise
 show_downloads: true
