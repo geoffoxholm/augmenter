@@ -32,10 +32,15 @@ Whatever code you do send, please make the effort to impress us with its quality
 
 ## Data
 
-You can download the [data](data.zip) here. It contains the following files:
+You can download some sample [data](data.zip) here. 
+It contains `rgb` images (which you may think about as set A above), as well as `depth` and `normal` images (which you may think about as sets B<sub>1</sub> and B<sub>2</sub> above).
+This is a made-up dataset of a synthetic 3D scenes. 
+Your script need-not care about the data types.
+
+It contains the following files:
 ```
 data
-├── depth
+├── rgb
 │   ├── 0000.png
 │   ├── 0001.png
 │   ├── 0002.png
@@ -57,7 +62,7 @@ data
 │   ├── 0007.png
 │   ├── 0008.png
 │   └── 0009.png
-└── rgb
+└── depth
     ├── 0000.png
     ├── 0001.png
     ├── 0002.png
@@ -69,8 +74,7 @@ data
     ├── 0008.png
     └── 0009.png
 ```
-This is a made-up dataset of a synthetic 3D scenes. 
-Your script need-not care about the data types.
+
 
 ## Example
 
@@ -86,12 +90,12 @@ In each of these 10 augmentations some (random) amount of rotation and scaling (
 For example, here's an abbreviated file list:
 ```
 augmentations_output
-├── depth-00
+├── rgb-00
 │   ├── 0000.png
 │   ├── ...
 │   └── 0009.png
 ├── ...
-├── depth-09
+├── rgb-09
 │   ├── 0000.png
 │   ├── ...
 │   └── 0009.png
@@ -104,12 +108,12 @@ augmentations_output
 │   ├── 0000.png
 │   ├── ...
 │   └── 0009.png
-├── rgb-00
+├── depth-00
 │   ├── 0000.png
 │   ├── ...
 │   └── 0009.png
 ├── ...
-└── rgb-09
+└── depth-09
     ├── 0000.png
     ├── ...
     └── 0009.png
