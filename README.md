@@ -28,7 +28,12 @@ We realize that there's a lot of ambiguity in this assignment.
 Feel free to document what improvements you'd _like_ to make, but didn't budget time for.
 Whatever code you do send, please make the effort to impress us with its quality. 
 **We'd rather see a small, but well-crafted example than an application with many features that was sloppily put together.**
+If you consult any resources to help you out (online or otherwise), please let us know what they were.
 
+## How to submit
+
+:warning: **IMPORTANT** :warning: Send us a _link_ to your code on Dropbox, Google Drive, or OneDrive --
+***DO NOT*** send a ***.zip*** attachment since it won't get through our email filtering system! And please do not make your solution publicly visible on (for example) github.
 
 ## Data
 
