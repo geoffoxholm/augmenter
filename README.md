@@ -1,6 +1,6 @@
 ## Motivation
 Data augmentation is used in machine learning to expand the number of examples in a dataset. 
-For images, it is common to use image processing techniques like flipping, rotation, additive noise, and many others to slightly modify an image and add the edited image to the dataset. 
+For images, it is common to use image processing techniques like flipping, rotation, additive noise, alpha blending, and many others to slightly modify an image and add the edited image to the dataset. 
 
 
 ## Problem description
