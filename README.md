@@ -1,6 +1,6 @@
 ## Motivation
 Data augmentation is used in machine learning to expand the number of examples in a dataset. 
-For images, it is common to use image processing techniques like flipping, rotation, additive noise, alpha blending, and many others to slightly modify an image and add the edited image to the dataset. 
+For images, it is common to use image processing techniques like flipping, rotation, additive noise, and many others to slightly modify an image and add the edited image to the dataset. 
 
 
 ## Problem description
@@ -20,20 +20,6 @@ Your solution should:
 - support running on 1 or more sets of images (where all sets have the same filenames but are contained in different directories)
 - use a random number generator for each of the manipulations
 - support at least 2 different image manipulations
-
-## Guidance
-
-Feel free to extend the functionality of your program in any way that you want.
-We realize that there's a lot of ambiguity in this assignment. 
-Feel free to document what improvements you'd _like_ to make, but didn't budget time for.
-Whatever code you do send, please make the effort to impress us with its quality. 
-**We'd rather see a small, but well-crafted example than an application with many features that was sloppily put together.**
-If you consult any resources to help you out (online or otherwise), please let us know what they were.
-
-## How to submit
-
-**IMPORTANT** Send us a _link_ to your code on Dropbox, Google Drive, or OneDrive --
-***DO NOT*** send a ***.zip*** attachment since it won't get through our email filtering system! And please do not make your solution publicly visible on (for example) github.
 
 ## Data
 
